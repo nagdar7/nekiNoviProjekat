@@ -6,9 +6,7 @@ import (
 	"strconv"
 )
 
-var a bool
-
-func print1ton(n int) {
+func printOneToN(n int) {
 	for i := 0; i < n; i++ {
 		fmt.Println(i)
 	}
@@ -24,7 +22,6 @@ func swap(x int, y string) (a int, b string) {
 }
 
 func main() {
-	a = bzvz.A == 0
 
 	bzvz.Bzvz()
 
@@ -34,6 +31,6 @@ func main() {
 
 	fmt.Println(a, b)
 
-	print1ton(20)
+	printOneToN(20)
 
 }
